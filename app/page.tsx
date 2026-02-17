@@ -1,5 +1,5 @@
 import HeroSection from './components/hero';
-import Stats from './components/stats-overview/stats';
+import Stats from './components/stats';
 
 const HomePage = () => {
   return (

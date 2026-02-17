@@ -33,7 +33,7 @@ const socailLinks = [
 
 const HeroSection = () => {
   return (
-    <section className='section-spacing'>
+    <section className='py-12'>
       <div className='container'>
         <div className='flex flex-col xl:flex-row items-center justify-between gap-y-14'>
           {/* My Info */}

@@ -21,7 +21,7 @@ const StairEffect = () => {
   return (
     <AnimatePresence mode='wait'>
       <div key={pathname}>
-        <div className='flex fixed inset-0 pointer-events-none h-screen w-screen z-40'>
+        <div className='flex fixed inset-0 pointer-events-none  z-40'>
           {[...Array(6)].map((_, index) => (
             <motion.div
               key={index}
