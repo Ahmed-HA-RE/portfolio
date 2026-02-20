@@ -84,3 +84,11 @@ export const education = {
     },
   ],
 };
+export const phoneNumber = '+971 50 126 7437';
+export const email = 'ah607k@gmail.com';
+
+export const services = [
+  'Full-Stack Web Applications',
+  'Fronted Development',
+  'Backend Development',
+];

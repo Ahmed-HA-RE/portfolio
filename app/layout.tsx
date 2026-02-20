@@ -6,6 +6,7 @@ import Header from '@/app/components/header';
 import PageTransition from './components/page-transition';
 import StairEffect from './components/stair-effect';
 import Footer from './components/footer';
+import { Toaster } from 'react-hot-toast';
 
 const jetBrains = JetBrains_Mono({
   subsets: ['latin'],
@@ -41,6 +42,7 @@ export default function RootLayout({
           <StairEffect />
           <PageTransition />
           <main className='flex-grow'>{children}</main>
+          <Toaster />
           <Footer />
         </div>
       </body>
