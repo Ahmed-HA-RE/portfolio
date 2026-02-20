@@ -105,7 +105,7 @@ const Project = () => {
               modules={[Autoplay]}
               loop={true}
               autoplay={{
-                delay: 4000,
+                delay: 8000,
                 disableOnInteraction: false,
               }}
             >

@@ -26,7 +26,7 @@ const MobileNav = () => {
           side='right'
           className='bg-background data-[side=right]:border-0 data-[side=right]:sm:max-w-md'
         >
-          <SheetHeader className='text-center mt-32 mb-40 flex items-center justify-center'>
+          <SheetHeader className='text-center mt-32 mb-25 flex items-center justify-center'>
             <Link onClick={() => setOpen(!open)} href='/'>
               <SheetTitle className='text-4xl pt-1.5 text-primary-text'>
                 Ahmed<span className='text-primary'>.</span>

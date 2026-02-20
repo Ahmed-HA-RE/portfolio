@@ -7,6 +7,7 @@ import {
   FaWhatsapp,
 } from 'react-icons/fa';
 import Photo from './photo';
+import { TypingAnimation } from './ui/typing-animation';
 
 const socailLinks = [
   {
@@ -41,17 +42,29 @@ const HeroSection = () => {
             <span className='text-secondary-text text-xl mb-1.5'>
               Software Developer
             </span>
-            <h1 className='text-5xl xl:text-[80px] leading-16 xl:leading-22 font-semibold mb-6 text-center xl:text-left'>
+            <h1 className='text-5xl xl:text-[80px] leading-16 xl:leading-22 font-semibold text-center xl:text-left'>
               Hello I&apos;m <br />
               <span className='!bg-clip-text text-transparent !bg-cover !bg-center bg-gradient-to-tl from-[#f12711] to-[#f5af19]'>
                 Ahmed Haitham
               </span>
             </h1>
+            <TypingAnimation
+              words={[
+                'Full Stack Developer',
+                'Frontend Developer',
+                'Backend Developer',
+              ]}
+              blinkCursor={true}
+              pauseDelay={2000}
+              loop
+              className='text-4xl font-bold my-6 text-primary xl:text-left text-center'
+            />
             <h3 className='text-lg xl:text-xl text-secondary-text text-center xl:text-left max-w-xl mb-9'>
-              Full-Stack developer specializing in building scalable, high
-              performance web applications using modern technologies. I focus on
-              clean architecture, seamless user experiences, and production
-              ready solutions that grow with real business needs.
+              I specialize in building scalable, high-performance web
+              applications, creating smooth Frontend experiences, and designing
+              solid Backend systems. I focus on clean architecture, intuitive
+              interfaces, and solutions that are ready for real-world use and
+              growth.
             </h3>
             <div className='flex flex-col md:flex-row items-center justify-center gap-8'>
               <Button
